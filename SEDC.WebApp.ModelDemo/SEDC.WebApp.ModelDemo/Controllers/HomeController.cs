@@ -13,7 +13,7 @@ namespace SEDC.WebApp.ModelDemo.Controllers
     
     public class HomeController : Controller
     {
-        public static UserVM LoggedUser;
+        
         public IActionResult Index()
         {
             ViewData["Heading"] = "Pizzas menu";
@@ -47,34 +47,14 @@ namespace SEDC.WebApp.ModelDemo.Controllers
                 Price = pizza.Price,
                 Ingredients = pizza.Ingredients
             };
-            if (LoggedUser == null)
+            if (StaticDb.LoggedUser == null)
             {
                 return RedirectToAction("LogginUser");
             }
-            LoggedUser.CurrentOrder.Pizzas.Add(pizzaModel);
+            StaticDb.LoggedUser.CurrentOrder.Pizzas.Add(pizzaModel);
             return RedirectToAction("Index");
         }
-        [HttpGet]
-        public IActionResult LogginUser()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult LogginUser(User user)
-        {
-            var loggedUser = StaticDb.Users.SingleOrDefault(u => u.Username == user.Username && u.Password == user.Password);
-            UserVM loggedVM = new UserVM()
-            {
-                Name = $"{loggedUser.FirstName} + {loggedUser.LastName}",
-                Phone = loggedUser.Phone,
-                Address = loggedUser.Address,
-                Username = loggedUser.Username,
-                Password = loggedUser.Password
-            };
-            LoggedUser = loggedVM;
-            return View("Index");
-        }
+        
 
         public IActionResult About()
         {

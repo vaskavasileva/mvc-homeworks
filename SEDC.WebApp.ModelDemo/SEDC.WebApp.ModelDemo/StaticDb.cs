@@ -1,5 +1,6 @@
 ﻿using SEDC.WebApp.ModelDemo.Models.Domain;
 using SEDC.WebApp.ModelDemo.Models.Enums;
+using SEDC.WebApp.ModelDemo.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace SEDC.WebApp.ModelDemo
 {
     public static class StaticDb 
     {
+        public static UserVM LoggedUser;
         public static List<Order> Orders;
         public static List<Pizza> Menu;
         public static List<User> Users;

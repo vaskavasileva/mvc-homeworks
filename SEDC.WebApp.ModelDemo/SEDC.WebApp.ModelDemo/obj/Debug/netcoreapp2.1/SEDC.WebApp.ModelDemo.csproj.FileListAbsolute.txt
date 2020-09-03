@@ -32,3 +32,4 @@ C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.WebApp.ModelDemo\SEDC.Web
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Views.pdb
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.csproj.CopyComplete
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\LogginUser.g.cshtml.cs
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\Razor\Views\User\RegisterUser.g.cshtml.cs
