@@ -1,0 +1,49 @@
+﻿<style>
+    .bg-1 { 
+    background-color: #79943d;	
+    color: #ffffff;
+    font-family:Calibri;
+    }
+    .bg-2 { 
+    background-color: #D3D3D3;
+    color: #000000;
+    }
+    .bg-3 { 
+    background-color: #ffffff;
+    color: #555555;
+    }
+    .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+</style>
+<div class="container-fluid bg-1 text-center">
+    <h2 class="margin">Tired of eating the same pizza every time?</h2>
+    <img src="~/images/Logo.jpg" class="img-rounded margin" style="display:inline" width="350" height="350">
+    <h2>We have the solution!</h2>
+</div>
+<div class="container-fluid bg-2 text-center">
+    <h3 class="margin">What are we offering?</h3>
+    <p>If you have a specific taste, don't wait! With us you can create your own pizza, and if you like it, order it again as many times as you want!</p>
+    <p>See some examples of our pizzas below:</p>
+    <a asp-controller="Pizza" asp-action="Menu" class="btn btn-default btn-lg">
+         Our Pizzas
+    </a>
+</div>
+<div class="container-fluid bg-3 text-center">
+    <h3 class="margin">How to get it?</h3><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Register for your account now! Or just log in if you have been here before!</p>
+            <img src="~/images/1.png" class="img-responsive margin" style="width:100%">
+        </div>
+        <div class="col-sm-4">
+            <p>Make your own pizza or choose one of our favorites!</p>
+            <img src="~/images/2.png" class="img-responsive margin" style="width:100%">
+        </div>
+        <div class="col-sm-4">
+            <p>Make the order and wait for it to be delivered or pick it up at our store!</p>
+            <img src="~/images/3.png" class="img-responsive margin" style="width:100%">
+        </div>
+    </div>
+</div>
