@@ -1,0 +1,19 @@
+﻿@model  PizzaVM
+<p>Please select the size of your pizza:</p>
+
+
+
+<div class="form-group">
+    <label for="size">Select list:</label>
+    <select class="form-control" id="size">
+        @foreach (var item in Enum.GetNames(typeof(PizzaSize)))
+        {
+            <option>@item</option>
+        }
+        
+    </select>
+</div>
+
+<p>Please select the type of dough you want to use:</p>
+
+

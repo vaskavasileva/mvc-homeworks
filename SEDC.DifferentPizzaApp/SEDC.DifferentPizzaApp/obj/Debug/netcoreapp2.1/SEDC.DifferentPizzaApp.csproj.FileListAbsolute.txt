@@ -32,3 +32,4 @@ C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.Di
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\User\SignUp.g.cshtml.cs
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\User\LogIn.g.cshtml.cs
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\User\ViewUser.g.cshtml.cs
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\Menu.g.cshtml.cs

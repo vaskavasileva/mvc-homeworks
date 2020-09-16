@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SEDC.DifferentPizzaApp.Models.Domain;
+using SEDC.DifferentPizzaApp.Models.Enums;
 using SEDC.DifferentPizzaApp.Models.ViewModels;
 
 namespace SEDC.DifferentPizzaApp.Controllers
@@ -24,7 +26,9 @@ namespace SEDC.DifferentPizzaApp.Controllers
 
         public IActionResult MakePizza()
         {
-            return View();
+            var myPizza = new PizzaVM();
+            
+            return View(myPizza);
         }
 
        

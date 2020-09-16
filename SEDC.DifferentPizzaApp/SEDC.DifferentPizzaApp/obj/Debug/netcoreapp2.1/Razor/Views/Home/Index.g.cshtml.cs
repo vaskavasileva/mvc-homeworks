@@ -93,7 +93,7 @@ using SEDC.DifferentPizzaApp.Models.ViewModels;
     ");
             EndContext();
             BeginContext(474, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9450bf7fd897474fbc6bb12ae7a43708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ee20f4e2ba794a64892cb5601ea9367d", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -122,7 +122,7 @@ using SEDC.DifferentPizzaApp.Models.ViewModels;
     ");
             EndContext();
             BeginContext(933, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b6668b1635e42d89633f7e99a059d5f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8862b187d11043e8957a6c9d702b03e5", async() => {
                 BeginContext(1008, 27, true);
                 WriteLiteral("\r\n         Our Pizzas\r\n    ");
                 EndContext();
@@ -154,7 +154,7 @@ using SEDC.DifferentPizzaApp.Models.ViewModels;
             ");
             EndContext();
             BeginContext(1308, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3beb8248f15d4468b056d3236d04662b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "afff198c9cb647e69ae099fa15f61778", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -174,7 +174,7 @@ using SEDC.DifferentPizzaApp.Models.ViewModels;
             WriteLiteral("\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <p>Make your own pizza or choose one of our favorites!</p>\r\n            ");
             EndContext();
             BeginContext(1517, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7b290bdd59514af38baf0765b5f36f32", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "60be8fb9a1d94539bc341021d65c469e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -194,7 +194,7 @@ using SEDC.DifferentPizzaApp.Models.ViewModels;
             WriteLiteral("\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <p>Make the order and wait for it to be delivered or pick it up at our store!</p>\r\n            ");
             EndContext();
             BeginContext(1749, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2fac5494940e4da5b57fa4fc264649d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "28397d46e8994eb9919b9c855d6c4c18", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
