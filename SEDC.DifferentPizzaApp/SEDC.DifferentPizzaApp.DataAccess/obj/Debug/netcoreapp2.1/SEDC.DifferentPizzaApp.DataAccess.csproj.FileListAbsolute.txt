@@ -1,0 +1,9 @@
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.AssemblyInfo.cs
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.deps.json
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.dll
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.pdb
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.dll
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.DataAccess\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.pdb

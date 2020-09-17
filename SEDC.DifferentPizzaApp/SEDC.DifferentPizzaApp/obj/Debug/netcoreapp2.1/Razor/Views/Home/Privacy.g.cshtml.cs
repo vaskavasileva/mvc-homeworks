@@ -18,18 +18,8 @@ using SEDC.DifferentPizzaApp;
 
 #line default
 #line hidden
-#line 2 "C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\Views\_ViewImports.cshtml"
-using SEDC.DifferentPizzaApp.Models;
-
-#line default
-#line hidden
-#line 3 "C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\Views\_ViewImports.cshtml"
-using SEDC.DifferentPizzaApp.Models.ViewModels;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e57a9cdbfb174b0e3def22c244c908ddaaf89fa7", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"48fd48ab629480ea8067231a6f984db72ef0c7b3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be3642b0deef444251b7b15d5ffc30367433780c", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

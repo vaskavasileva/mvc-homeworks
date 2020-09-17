@@ -1,0 +1,12 @@
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.AssemblyInfo.cs
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.deps.json
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.dll
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.pdb
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.dll
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.pdb
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.csproj.CopyComplete
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.dll
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.BusinessLayer\obj\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.pdb

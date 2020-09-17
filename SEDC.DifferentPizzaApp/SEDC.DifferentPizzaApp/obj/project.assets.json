@@ -4615,6 +4615,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "SEDC.DifferentPizzaApp.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "SEDC.DifferentPizzaApp.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.DifferentPizzaApp.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.DifferentPizzaApp.BusinessLayer.dll": {}
+        }
+      },
+      "SEDC.DifferentPizzaApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SEDC.DifferentPizzaApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.DifferentPizzaApp.DataAccess.dll": {}
+        }
       }
     }
   },
@@ -12524,6 +12547,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "SEDC.DifferentPizzaApp.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.DifferentPizzaApp.BusinessLayer/SEDC.DifferentPizzaApp.BusinessLayer.csproj",
+      "msbuildProject": "../SEDC.DifferentPizzaApp.BusinessLayer/SEDC.DifferentPizzaApp.BusinessLayer.csproj"
+    },
+    "SEDC.DifferentPizzaApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.DifferentPizzaApp.DataAccess/SEDC.DifferentPizzaApp.DataAccess.csproj",
+      "msbuildProject": "../SEDC.DifferentPizzaApp.DataAccess/SEDC.DifferentPizzaApp.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12531,7 +12564,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
+      "SEDC.DifferentPizzaApp.BusinessLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12563,7 +12597,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\code\\Desktop\\mvc-homeworks\\mvc-homeworks\\SEDC.DifferentPizzaApp\\SEDC.DifferentPizzaApp.BusinessLayer\\SEDC.DifferentPizzaApp.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\code\\Desktop\\mvc-homeworks\\mvc-homeworks\\SEDC.DifferentPizzaApp\\SEDC.DifferentPizzaApp.BusinessLayer\\SEDC.DifferentPizzaApp.BusinessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.DifferentPizzaApp", "SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.csproj", "{A1F7F461-D2A0-4889-8DF3-920FDE378C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.DifferentPizzaApp", "SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp.csproj", "{A1F7F461-D2A0-4889-8DF3-920FDE378C36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.DifferentPizzaApp.DataAccess", "SEDC.DifferentPizzaApp.DataAccess\SEDC.DifferentPizzaApp.DataAccess.csproj", "{C9AB9A7A-4EED-4F8F-9A2E-F75B6EB29CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.DifferentPizzaApp.BusinessLayer", "SEDC.DifferentPizzaApp.BusinessLayer\SEDC.DifferentPizzaApp.BusinessLayer.csproj", "{B3267D29-C1E5-4C0E-83B1-ED32CE905384}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A1F7F461-D2A0-4889-8DF3-920FDE378C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F7F461-D2A0-4889-8DF3-920FDE378C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F7F461-D2A0-4889-8DF3-920FDE378C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AB9A7A-4EED-4F8F-9A2E-F75B6EB29CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AB9A7A-4EED-4F8F-9A2E-F75B6EB29CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AB9A7A-4EED-4F8F-9A2E-F75B6EB29CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AB9A7A-4EED-4F8F-9A2E-F75B6EB29CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3267D29-C1E5-4C0E-83B1-ED32CE905384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3267D29-C1E5-4C0E-83B1-ED32CE905384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3267D29-C1E5-4C0E-83B1-ED32CE905384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3267D29-C1E5-4C0E-83B1-ED32CE905384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,4 +10,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Domain\" />
+    <Folder Include="Models\Enums\" />
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.DifferentPizzaApp.BusinessLayer\SEDC.DifferentPizzaApp.BusinessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
