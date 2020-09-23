@@ -1,15 +1,10 @@
-﻿
-@*@{ 
-    var isLogged = false;
-    if (StaticDb.LoggedUser.Username != null)
-    {
-        isLogged = true;
-    }
-}
-
-@{ 
-    ViewBag.Username = StaticDb.LoggedUser.Username;
-}
+﻿@{ var isLogged = false;
+        if (CurrentLogs.LoggedUser.Username != null)
+        {
+            isLogged = true;
+        }
+        ViewBag.IsLogged = isLogged;
+        ViewBag.Username = CurrentLogs.LoggedUser.Username; }
 
 <!DOCTYPE html>
 <html>
@@ -37,20 +32,27 @@
             margin-bottom: 0;
             font-size: 12px;
             letter-spacing: 5px;
-            background-color:#FF6347;
-            color:black;
+            background-color: #FF6347;
+            color: black;
         }
+
         .navbar-nav li a:hover {
             color: #000000;
         }
-        body{
+
+        body {
             font: 20px Montserrat, sans-serif;
             line-height: 1.8;
             color: #f5f6f7;
         }
-        p {font-size: 16px;}
-        .margin {margin-bottom: 45px;}
-        
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
     </style>
 </head>
 <body>
@@ -63,16 +65,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">Home</a>
-                @if (isLogged)
+                @if (ViewBag.IsLogged)
                 {
-                    <a class="navbar-brand" asp-controller="Pizza" asp-action="Menu">Our Pizzas</a> 
-                    <a class="navbar-brand" asp-controller="Pizza" asp-action="MakePizza">Make Your Pizza</a> 
-                    <a class="navbar-brand" asp-controller="Order" asp-action="ViewOrders">Orders</a> 
+                    <a class="navbar-brand" asp-controller="Pizza" asp-action="Menu">Our Pizzas</a>
+                    <a class="navbar-brand" asp-controller="Pizza" asp-action="MakePizza">Make Your Pizza</a>
+                    <a class="navbar-brand" asp-controller="Order" asp-action="ViewOrders">Orders</a>
                 }
-                </div>
+            </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    @if (!isLogged)
+                    @if (!ViewBag.IsLogged)
                     {
                         <li><a asp-controller="User" asp-action="SignUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a asp-controller="User" asp-action="LogIn"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -120,4 +122,4 @@
 
     @RenderSection("Scripts", required: false)
 </body>
-</html>*@
+</html>

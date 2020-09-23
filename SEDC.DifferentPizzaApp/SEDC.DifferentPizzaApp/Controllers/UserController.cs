@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SEDC.DifferentPizzaApp.BusinessLayer.Helpers;
+using SEDC.DifferentPizzaApp.BusinessLayer.Mappings;
 using SEDC.DifferentPizzaApp.BusinessLayer.Services.Interfaces;
+using SEDC.DifferentPizzaApp.DataAccess;
+using SEDC.DifferentPizzaApp.DataAccess.Core.Models;
+using SEDC.DifferentPizzaApp.DataAccess.ViewModels;
 
 namespace SEDC.DifferentPizzaApp.Controllers
 {
@@ -14,59 +19,53 @@ namespace SEDC.DifferentPizzaApp.Controllers
         {
             _userService = userService;
         }
-        //public IActionResult SignUp()
-        //{
-        //    var user = new User();
-        //    return View();
-        //}
+        public IActionResult SignUp()
+        {
+            var user = new UserVM();
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult SignUp(UserVM user)
+        {
+            _userService.CreateUser(user);
+            CurrentLogs.LoggedUser = UserMappers.FromUserVMToUser(user);
+            return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult LogIn()
+        {
+            var user = new UserVM();
+            return View(user);
+        }
 
         //[HttpPost]
-        //public IActionResult SignUp(User user)
-        //{
-        //    StaticDb.Users.Add(user);
-        //    StaticDb.LoggedUser = user;
-        //    return RedirectToAction("Index", "Home");
-        //}
-
-        //public IActionResult LogIn()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult LogIn(User user)
-        //{
-        //    var loggedUser = StaticDb.Users.SingleOrDefault(x => x.Username == user.Username && x.Password == user.Password);
-        //    if (loggedUser == null)
-        //    {
-        //        return RedirectToAction("LogIn");
-        //    }
-        //    StaticDb.LoggedUser = loggedUser;
-        //    return RedirectToAction("Index", "Home");
-        //}
+        public IActionResult LogIn(UserVM user)
+        {
+            var loggedUser = _userService.LogInUser(user.Username, user.Password);
+            if (loggedUser == null)
+            {
+                return RedirectToAction("LogIn");
+            }
+            CurrentLogs.LoggedUser = UserMappers.FromUserVMToUser(loggedUser);
+            return RedirectToAction("Index", "Home");
+        }
 
         
-        //public IActionResult LogOut()
-        //{
-        //    StaticDb.LoggedUser = null;
-        //    StaticDb.LoggedUser = new User();
-        //    return RedirectToAction("Index", "Home");
-        //}
+        public IActionResult LogOut()
+        {
+            CurrentLogs.LoggedUser = null;
+            CurrentLogs.LoggedUser = new User();
+            return RedirectToAction("Index", "Home");
+        }
 
-        //public IActionResult ViewUser()
-        //{
-        //    var user = StaticDb.LoggedUser;
-        //    var userVM = new UserVM()
-        //    {
-        //        Username = user.Username,
-        //        Password = user.Password,
-        //        Name = user.FirstName + " " + user.LastName,
-        //        Address = user.Address,
-        //        Phone = user.Phone
-        //    };
+        public IActionResult ViewUser()
+        {
+            var user = UserMappers.FromUserToUserVM(CurrentLogs.LoggedUser);
+        
 
-        //    return View(userVM);
-        //}
+            return View(user);
+        }
 
         
     }

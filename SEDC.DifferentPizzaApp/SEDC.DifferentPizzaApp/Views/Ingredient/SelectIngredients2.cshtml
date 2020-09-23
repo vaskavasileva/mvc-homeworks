@@ -1,0 +1,23 @@
+﻿@model  List<IngredientVM>
+
+
+<h2>Select Meat</h2>
+
+<div class="form-group">
+    <label for="size">Select the type of meat for your pizza: </label>
+    <select class="form-control" id="size">
+        @foreach (var item in Model)
+        {
+
+            <option>@item.Name</option>
+        }
+
+    </select>
+
+
+    <form asp-action="SelectIngredients">
+        <input type="submit" value="Submit" class="btn btn-default" /> |
+        <a asp-controller="Home" asp-action="Index">Back to Home</a>
+    </form>
+</div>
+

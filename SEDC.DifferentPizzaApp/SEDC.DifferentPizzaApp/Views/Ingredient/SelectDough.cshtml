@@ -1,0 +1,16 @@
+﻿@model List<IngredientVM>
+
+
+<h2>SelectDough</h2>
+<div class="form-group">
+    <label for="size">Select the type of dough for your pizza: </label>
+    <select class="form-control" id="size">
+        @foreach (var item in Model)
+        {
+            <option>@item</option>
+        }
+
+    </select>
+</div>
+
+

@@ -12,8 +12,7 @@ namespace SEDC.DifferentPizzaApp.DataAccess
     public class StaticDb : IStaticDb
     {
 
-        public User LoggedUser { get; set; } = new User();
-        public Pizza CurrentPizza { get; set; } = new Pizza();
+        
 
         public List<Ingredient> GetIngredients()
         {

@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SEDC.DifferentPizzaApp.BusinessLayer.Helpers;
+using SEDC.DifferentPizzaApp.BusinessLayer.Mappings;
 using SEDC.DifferentPizzaApp.BusinessLayer.Services.Interfaces;
+using SEDC.DifferentPizzaApp.DataAccess;
+using SEDC.DifferentPizzaApp.DataAccess.Core.Enums;
+using SEDC.DifferentPizzaApp.DataAccess.ViewModels;
 
 namespace SEDC.DifferentPizzaApp.Controllers
 {
@@ -14,25 +19,27 @@ namespace SEDC.DifferentPizzaApp.Controllers
         {
             _pizzaService = pizzaService;
         }
-        //public IActionResult Menu()
-        //{
-        //    var ourPizzas = new List<PizzaVM>();
-        //    ourPizzas = StaticDb.OurPizzas.Select(pizza => new PizzaVM()
-        //    {
-        //        Name = pizza.Name,
-        //        Size = pizza.Size,
-        //        Ingredients = pizza.Ingredients.Select(i => new IngredientVM() { Name = i.Name, Type = i.Type, Weight = i.Weight }).ToList(),
-        //        Price = pizza.Price
-        //    }).ToList();
-        //    return View(ourPizzas);
-        //}
+        public IActionResult Menu()
+        {
+            List<PizzaVM> ourPizzas = _pizzaService.GetAllPizzas();
+        
+            return View(ourPizzas);
+        }
 
-        //public IActionResult MakePizza()
-        //{
-        //    var myPizza = new PizzaVM();
-            
-        //    return View(myPizza);
-        //}
+        public IActionResult MakePizza()
+        {
+            var pizzaSizes = new List<PizzaSize>();
+            return View(pizzaSizes);
+        }
+
+        [HttpPost]
+        public IActionResult MakePizza(PizzaSize size)
+        {
+            CurrentLogs.CurrentPizza.Size = size;
+            return RedirectToAction("SelectDough", "Ingredient");
+        }
+
+        
 
        
     }

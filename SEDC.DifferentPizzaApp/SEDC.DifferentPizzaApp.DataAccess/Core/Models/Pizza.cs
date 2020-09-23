@@ -18,7 +18,7 @@ namespace SEDC.DifferentPizzaApp.DataAccess.Core.Models
         
 
         public string Name { get; set; }
-        public List<Ingredient> Ingredients { get; set; }
+        public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
         public PizzaSize Size { get; set; }
         public int Price { get; set; }
 

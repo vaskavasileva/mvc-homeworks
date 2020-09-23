@@ -13,5 +13,6 @@ namespace SEDC.DifferentPizzaApp.BusinessLayer.Services.Interfaces
         bool UpdateUser(UserVM user);
         bool CreateUser(UserVM user);
         bool DeleteUser(UserVM user);
+        UserVM LogInUser(string username, string password);
     }
 }

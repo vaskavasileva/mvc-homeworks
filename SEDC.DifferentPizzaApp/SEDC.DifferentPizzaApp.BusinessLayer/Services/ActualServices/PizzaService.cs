@@ -1,10 +1,12 @@
-﻿using SEDC.DifferentPizzaApp.BusinessLayer.Services.Interfaces;
+﻿using SEDC.DifferentPizzaApp.BusinessLayer.Mappings;
+using SEDC.DifferentPizzaApp.BusinessLayer.Services.Interfaces;
 using SEDC.DifferentPizzaApp.DataAccess.Core.Enums;
 using SEDC.DifferentPizzaApp.DataAccess.Core.Interfaces;
 using SEDC.DifferentPizzaApp.DataAccess.Core.Models;
 using SEDC.DifferentPizzaApp.DataAccess.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SEDC.DifferentPizzaApp.BusinessLayer.Services.ActualServices
@@ -18,32 +20,32 @@ namespace SEDC.DifferentPizzaApp.BusinessLayer.Services.ActualServices
         }
         public bool CreatePizza(PizzaVM pizza)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Update(PizzaMappers.FromPizzaVMToPizza(pizza));
         }
 
         public bool DeletePizza(int id)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Delete(id);
         }
 
         public List<PizzaVM> GetAllPizzas()
         {
-            throw new NotImplementedException();
+            return PizzaMappers.FromPizzasToPizzaVMs(_pizzaRepo.GetAll());
         }
 
         public PizzaVM GetPizzaById(int id)
         {
-            throw new NotImplementedException();
+            return PizzaMappers.FromPizzaToPizzaVM(_pizzaRepo.GetById(id));
         }
 
         public List<PizzaVM> GetPizzasBySize(PizzaSize size)
         {
-            throw new NotImplementedException();
+            return PizzaMappers.FromPizzasToPizzaVMs(_pizzaRepo.GetAll().Where(x => x.Size == size).ToList());
         }
 
         public bool UpdatePizza(PizzaVM pizza)
         {
-            throw new NotImplementedException();
+            return _pizzaRepo.Update(PizzaMappers.FromPizzaVMToPizza(pizza));
         }
     }
 }

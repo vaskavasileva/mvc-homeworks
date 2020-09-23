@@ -16,11 +16,9 @@ namespace SEDC.DifferentPizzaApp.DataAccess.Core.Repositories
         }
         public bool Create(User entity)
         {
-            var user = _db.GetUsers().SingleOrDefault(x => x.Id == entity.Id);
-            if (user != null)
-            {
-                return false;
-            }
+
+            entity.Id = _db.GetUsers().Count + 1;
+
             _db.GetUsers().Add(entity);
             return true;
         }

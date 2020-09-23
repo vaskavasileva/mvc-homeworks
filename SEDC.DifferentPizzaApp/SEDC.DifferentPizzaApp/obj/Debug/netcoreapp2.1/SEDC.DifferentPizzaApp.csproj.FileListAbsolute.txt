@@ -38,3 +38,5 @@ C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.Di
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.dll
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.BusinessLayer.pdb
 C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\bin\Debug\netcoreapp2.1\SEDC.DifferentPizzaApp.DataAccess.pdb
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Ingredient\SelectDough.g.cshtml.cs
+C:\Users\code\Desktop\mvc-homeworks\mvc-homeworks\SEDC.DifferentPizzaApp\SEDC.DifferentPizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Ingredient\SelectIngredients.g.cshtml.cs

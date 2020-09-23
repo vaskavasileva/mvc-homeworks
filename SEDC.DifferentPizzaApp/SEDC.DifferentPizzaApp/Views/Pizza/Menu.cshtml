@@ -1,5 +1,4 @@
-﻿@*@model IEnumerable<SEDC.DifferentPizzaApp.Models.ViewModels.PizzaVM>
-
+﻿@model PizzaVM
 @{
     ViewData["Title"] = "Menu";
 }
@@ -28,34 +27,5 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                <ul>
-                @foreach(var ing in item.Ingredients)
-                    {
-                    <li>
-                        @Html.DisplayFor(ingItem => ing.Name) |
-                        @Html.DisplayFor(ingItem => ing.Weight) 
-                    </li>
-                    }
-                </ul>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Size)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                
-            </td>
-        </tr>
-}
-    </tbody>
-</table>*@
+
+</table>

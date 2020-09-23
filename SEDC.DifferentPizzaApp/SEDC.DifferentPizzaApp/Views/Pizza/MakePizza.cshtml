@@ -1,12 +1,17 @@
-﻿@*@model  
+﻿@model  List<PizzaSize>
 <p>Please select the size of your pizza:</p>
+<style>
+    .mydiv{
+        color:black;
+        background-color:brown;
+    }
+</style>
 
 
-
-<div class="form-group">
-    <label for="size">Select list:</label>
+<div class="form-group mydiv" >
+    <label for="size">Select the size of your pizza: </label>
     <select class="form-control" id="size">
-        @foreach (var item in Enum.GetNames(typeof(PizzaSize)))
+        @foreach (var item in Enum.GetNames(typeof(PizzaSize))
         {
             <option>@item</option>
         }
@@ -14,6 +19,7 @@
     </select>
 </div>
 
-<p>Please select the type of dough you want to use:</p>*@
+<a asp-controller="Pizza" asp-action="SelectDough" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Continue</a>
+
 
 
